@@ -1,0 +1,156 @@
+@import "./styles/variable";
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;400;700&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  transition: 0.3s;
+  line-height: 1.5;
+}
+
+body {
+  font-family: "Source Code Pro", monospace;
+  background-color: $background;
+  color: $black;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+h2 {
+  margin: 1em;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+section {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.myWork {
+  background-color: $white;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+}
+
+.button_changeLanguage {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.button_changeLanguage:hover {
+  text-decoration: underline;
+}
+
+.changeLanguage__wrapper {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+}
+
+.hidden {
+  transition: 0.5s;
+  display: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.aboutMe {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.aboutMe__img-wrapper {
+  background-color: $white;
+  height: 500px;
+  padding: 20px;
+}
+
+.aboutMe__description {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+  padding: 20px;
+  background-color: $white;
+}
+
+.aboutMe__img-wrapper img {
+  height: 100%;
+}
+
+.skills__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  height: 70px;
+}
+
+.skills__wrapper img {
+  height: 30px;
+}
+
+.Typewriter {
+  display: inline;
+}
+
+.contacts__wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.ico img {
+  height: 70px;
+  filter: brightness(90%) grayscale(50%);
+}
+
+.ico img:hover {
+  transition: 0.3s;
+  filter: brightness(100%) grayscale(0);
+}
+
+.download-btn,
+download-btn a {
+  color: $blue;
+  text-decoration: none;
+}
+
+.myLinks__wrapper {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  padding-right: 40px;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+  .aboutMe {
+    flex-wrap: wrap;
+  }
+  .aboutMe__description {
+    padding: 20px 20px 200px 20px;
+  }
+  .myLinks__wrapper {
+    padding-right: 100px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .aboutMe {
+    flex-wrap: wrap;
+  }
+}
