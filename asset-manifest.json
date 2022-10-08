@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a1d3de61.css",
+    "main.js": "/portfolio/static/js/main.2f77c299.js",
+    "static/media/var1.jpg": "/portfolio/static/media/var1.c831506ba7f7c42c65b4.jpg",
+    "static/media/var2.jpg": "/portfolio/static/media/var2.693cba7bbba331db0c9f.jpg",
+    "static/media/EmojiReact.png": "/portfolio/static/media/EmojiReact.0d58e877c8a133df6273.png",
+    "static/media/Weather.png": "/portfolio/static/media/Weather.0a7da56de0e28fc84ed8.png",
+    "static/media/var3.jpg": "/portfolio/static/media/var3.53aaaea5f5a4949ca9dc.jpg",
+    "static/media/Job-filter.jpg": "/portfolio/static/media/Job-filter.baea220d4f71d67a6df5.jpg",
+    "static/media/Github-search.jpg": "/portfolio/static/media/Github-search.fbf9737c1de7cdae3112.jpg",
+    "static/media/Rock-papper.jpg": "/portfolio/static/media/Rock-papper.5dee31a24405fe21ea46.jpg",
+    "static/media/Tip-calculator.jpg": "/portfolio/static/media/Tip-calculator.8a2a866be75beecc8e7a.jpg",
+    "static/media/icons8-telegram.svg": "/portfolio/static/media/icons8-telegram.0f97f64c7e0930a79c2d48053a5748fb.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/vk.svg": "/portfolio/static/media/vk.47a551bad70e8633069eb6e1a81af37d.svg",
+    "main.a1d3de61.css.map": "/portfolio/static/css/main.a1d3de61.css.map",
+    "main.2f77c299.js.map": "/portfolio/static/js/main.2f77c299.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1d3de61.css",
+    "static/js/main.2f77c299.js"
+  ]
+}
