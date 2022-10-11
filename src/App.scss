@@ -73,6 +73,8 @@ a:hover {
   background-color: $white;
   height: 500px;
   padding: 20px;
+  border-radius: 15px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
 }
 
 .aboutMe__description {
@@ -81,8 +83,10 @@ a:hover {
   flex-direction: column;
   gap: 10px;
   text-align: left;
-  padding: 20px;
+  padding: 30px;
   background-color: $white;
+  border-radius: 15px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
 }
 
 .aboutMe__img-wrapper img {

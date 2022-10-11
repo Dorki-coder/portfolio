@@ -3,6 +3,7 @@ import Typewriter from "typewriter-effect";
 import "./App.scss";
 import telegramIco from "./Assets/icons8-telegram.svg";
 import vkIco from "./Assets/vk.svg";
+import whatappIco from "./Assets/whatsappIco.svg";
 import List from "./Components/List";
 import useLocalStorage from "./hooks/use-localstorage";
 import i18n from "./i18n";
@@ -26,12 +27,7 @@ function App() {
       <div className="container">
         <section className="aboutMe">
           <div className="aboutMe__img-wrapper">
-            <img
-              src={require(`./Assets/var${Math.floor(
-                Math.random() * 3 + 1
-              )}.jpg`)}
-              alt="myPhoto"
-            ></img>
+            <img src={require("./Assets/var1.jpg")} alt="myPhoto"></img>
           </div>
           <div className="aboutMe__description">
             <p>
@@ -98,17 +94,19 @@ function App() {
                 <span className="download-btn">
                   {language === "ru" ? (
                     <a
-                      href="./Assets/CV-ru.pdf"
-                      download
+                      href="https://drive.google.com/file/d/1Za16nmffGuxdemEjARyik3zK5Gx4O-Ws/view?usp=sharing"
+                      target="_blank"
                       className="download-btn"
+                      rel="noreferrer"
                     >
                       Скачать
                     </a>
                   ) : (
                     <a
-                      href="./Assets/CV-eng.pdf"
-                      download
+                      href="https://drive.google.com/file/d/1qbqkI9US8hY0dxPosbKXmiBJlYGJMpfC/view"
+                      target="_blank"
                       className="download-btn"
+                      rel="noreferrer"
                     >
                       Download
                     </a>
@@ -154,6 +152,9 @@ function App() {
           <div className="contacts__wrapper">
             <a href="https://t.me/dorkitg" className="ico">
               <img src={telegramIco} alt="myPhoto" />
+            </a>
+            <a href="https://wa.link/00imga" className="ico">
+              <img src={whatappIco} alt="whatappIco" />
             </a>
             <a href="https://vk.com/dorki" className="ico">
               <img src={vkIco} alt="myPhoto" />
