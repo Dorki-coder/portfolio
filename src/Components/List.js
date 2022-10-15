@@ -58,7 +58,7 @@ const List = () => {
       <div className={s.card}>
         <div
           className={s.img__wrapper}
-          onMouseEnter={() => setHovering(6)}
+          onMouseEnter={() => setHovering(2)}
           onMouseLeave={() => setHovering(-1)}
         >
           <a href="https://dorki-coder.github.io/weather/">
@@ -69,7 +69,7 @@ const List = () => {
             ></img>
           </a>
           <div
-            className={`${s.hover__card} ${isHovering === 6 ? null : "hidden"}`}
+            className={`${s.hover__card} ${isHovering === 2 ? null : "hidden"}`}
           >
             <div className={s.card__description}>
               {t("Weather description")}
@@ -152,7 +152,7 @@ const List = () => {
       <div className={s.card}>
         <div
           className={s.img__wrapper}
-          onMouseEnter={() => setHovering(2)}
+          onMouseEnter={() => setHovering(4)}
           onMouseLeave={() => setHovering(-1)}
         >
           <a href="https://dorki-coder.github.io/github-user-search-app/">
@@ -163,7 +163,7 @@ const List = () => {
             ></img>
           </a>
           <div
-            className={`${s.hover__card} ${isHovering === 2 ? null : "hidden"}`}
+            className={`${s.hover__card} ${isHovering === 4 ? null : "hidden"}`}
           >
             <div className={s.card__description}>
               {t("Github search description")}
@@ -200,7 +200,7 @@ const List = () => {
       <div className={s.card}>
         <div
           className={s.img__wrapper}
-          onMouseEnter={() => setHovering(4)}
+          onMouseEnter={() => setHovering(5)}
           onMouseLeave={() => setHovering(-1)}
         >
           <a href="https://dorki-coder.github.io/job-listings/">
@@ -211,7 +211,7 @@ const List = () => {
             ></img>
           </a>
           <div
-            className={`${s.hover__card} ${isHovering === 4 ? null : "hidden"}`}
+            className={`${s.hover__card} ${isHovering === 5 ? null : "hidden"}`}
           >
             <div className={s.card__description}>
               {t("Job filter description")}
@@ -248,7 +248,7 @@ const List = () => {
       <div className={s.card}>
         <div
           className={s.img__wrapper}
-          onMouseEnter={() => setHovering(5)}
+          onMouseEnter={() => setHovering(6)}
           onMouseLeave={() => setHovering(-1)}
         >
           <a href="https://dorki-coder.github.io/tip-calculator-app/">
@@ -259,7 +259,7 @@ const List = () => {
             ></img>
           </a>
           <div
-            className={`${s.hover__card} ${isHovering === 5 ? null : "hidden"}`}
+            className={`${s.hover__card} ${isHovering === 6 ? null : "hidden"}`}
           >
             <div className={s.card__description}>
               {t("Tip calculator description")}
@@ -296,7 +296,7 @@ const List = () => {
       <div className={s.card}>
         <div
           className={s.img__wrapper}
-          onMouseEnter={() => setHovering(6)}
+          onMouseEnter={() => setHovering(7)}
           onMouseLeave={() => setHovering(-1)}
         >
           <a href="https://dorki-coder.github.io/todo-app/">
@@ -307,7 +307,7 @@ const List = () => {
             ></img>
           </a>
           <div
-            className={`${s.hover__card} ${isHovering === 6 ? null : "hidden"}`}
+            className={`${s.hover__card} ${isHovering === 7 ? null : "hidden"}`}
           >
             <div className={s.card__description}>{t("Todo description")}</div>
             <div className={s.links}>
@@ -342,7 +342,7 @@ const List = () => {
       <div className={s.card}>
         <div
           className={s.img__wrapper}
-          onMouseEnter={() => setHovering(7)}
+          onMouseEnter={() => setHovering(8)}
           onMouseLeave={() => setHovering(-1)}
         >
           <a href="https://dorki-coder.github.io/minimalist-portfolio-website/">
@@ -353,7 +353,7 @@ const List = () => {
             ></img>
           </a>
           <div
-            className={`${s.hover__card} ${isHovering === 7 ? null : "hidden"}`}
+            className={`${s.hover__card} ${isHovering === 8 ? null : "hidden"}`}
           >
             <div className={s.card__description}>
               {t("Portfolio description")}
