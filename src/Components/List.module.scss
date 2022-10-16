@@ -1,18 +1,7 @@
 @import "../styles/variable";
 
-.card {
-  position: relative;
-}
 
-.img__wrapper {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-}
 
-.card img {
-  width: 100%;
-}
 
 .list {
   display: grid;
@@ -21,61 +10,3 @@
   gap: 20px;
 }
 
-.links {
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 15px;
-  position: absolute;
-  padding: 10px;
-  bottom: 5px;
-  left: 0;
-  right: 0;
-  animation: op 0.8s backwards ease-in-out;
-}
-
-.github__link {
-  display: flex;
-  gap: 2px;
-  align-items: center;
-  text-decoration: none;
-  padding: 8px 16px;
-  color: $white;
-  border-radius: 980px;
-  background-color: $blue;
-}
-
-.liveSite__link {
-  text-decoration: none;
-  color: $white;
-}
-
-.hover__card {
-  padding: 10px;
-  color: $white;
-  background-color: rgba(0, 0, 0, 0.8);
-  height: 45%;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  animation: op 0.4s backwards ease-in-out;
-  animation: height 0.4s backwards ease-in-out;
-}
-
-@keyframes height {
-  from {
-    height: 0;
-  }
-}
-@keyframes op {
-  from {
-    opacity: 0;
-  }
-  30% {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
