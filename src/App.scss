@@ -34,7 +34,7 @@ section {
 
 .container {
   margin: auto;
-  width: 80%;
+  width: 85%;
 }
 
 .button_changeLanguage {
@@ -141,11 +141,12 @@ download-btn a {
   bottom: 20px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1080px) {
   .aboutMe {
     flex-wrap: wrap;
   }
   .aboutMe__description {
+    text-align: center;
     padding: 20px 20px 200px 20px;
   }
   .myLinks__wrapper {
