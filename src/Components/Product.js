@@ -30,7 +30,7 @@ export default function Product({ img, description, siteLink, githubLink }) {
               </svg>
               GitHub
             </a>
-            <a className={s.liveSite__link} href={githubLink}>
+            <a className={s.liveSite__link} href={siteLink}>
               Live site
             </a>
             {">"}

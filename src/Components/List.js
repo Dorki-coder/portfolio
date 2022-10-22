@@ -59,6 +59,12 @@ const List = () => {
         siteLink="https://dorki-coder.github.io/password-generator"
         githubLink="https://github.com/Dorki-coder/password-generator"
       />
+      <Product
+        img={require("../Assets/entertainment-web-app.jpg")}
+        description={t("Entertainment-web-app description")}
+        siteLink="https://dorki-coder.github.io/entertainment-web-app"
+        githubLink="https://github.com/Dorki-coder/entertainment-web-app"
+      />
     </div>
   );
 };
